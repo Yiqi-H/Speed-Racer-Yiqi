@@ -40,7 +40,7 @@ public class AnswerAssignment4_2 : MonoBehaviour
     // Create a variable to hold a new instance of the Fuel class, so we can store information and re-use it
     // Notice how the data type is the same name of the class the variable is going to hold in it
     public Fuel carFuel = new Fuel(100);
-
+                    
 
     // Start is called before the first frame update
     void Start()

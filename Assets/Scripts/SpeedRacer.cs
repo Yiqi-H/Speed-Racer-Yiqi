@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class SpeedRacer : MonoBehaviour
 {
-    
+    public Text text;
     public string carMaker;
     public string carModel = "GTR R35";
     public string engineType = "V6, Twin Turbo";
@@ -30,7 +31,7 @@ public class SpeedRacer : MonoBehaviour
 
     void Start()
     {
-        print("The racer model is" + carModel +"made by"+ carMaker +".It has" + engineType + "engine.");
+        text.text ="The racer model is" + carModel +"made by"+ carMaker +".It has" + engineType + "engine.";
         //Debug.Log("The racer model is" + carModel + ".It has" + engineType + "engine.");
         
         CheckWeight();
